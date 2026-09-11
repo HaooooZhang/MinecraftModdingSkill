@@ -1,0 +1,4 @@
+interface:
+  display_name: "Minecraft Mod Design"
+  short_description: "Design Minecraft mods from context through architecture handoff"
+  default_prompt: "Use $minecraft-mod-design to guide a Minecraft mod Design cycle."
