@@ -10,7 +10,7 @@ Improve and streamline AI-assisted Minecraft mod development by splitting the wo
 | --- | --- | --- |
 | `minecraft-mod-design` | Design | Turn an ambiguous idea into a bounded, reviewable Design. |
 | `minecraft-mod-plan` | Plan | Break an accepted Design into a concrete implementation plan. |
-| `minecraft-mod-develop` | Develop | Guide implementation across loaders, platforms, and versions. |
+| `minecraft-mod-develop` | Development | Implement the accepted Plan as working mod code across loaders, platforms, and versions. |
 | `minecraft-mod-review` | Review | Check code, design, and behavior for issues and consistency. |
 | `minecraft-mod-maintain` | Maintain | Support updates, ports, refactoring, and long-term upkeep. |
 
