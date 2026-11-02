@@ -1,0 +1,4 @@
+interface:
+  display_name: "Minecraft Mod Development"
+  short_description: "Plan, implement, and review Minecraft mod changes"
+  default_prompt: "Use $minecraft-mod-development to plan, implement, or review the current Minecraft mod task."
