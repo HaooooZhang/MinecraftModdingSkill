@@ -1,6 +1,6 @@
 # Minecraft Modding Skills
 
-A collection of AI Skills that assist with Minecraft mod development. Each Skill covers one stage of the modding workflow so that an AI agent can help with the whole process, from a rough idea to a maintained mod.
+A collection of AI Skills that assist with Minecraft mod development. Each Skill covers a focused stage or a group of related stages, from clarifying a mod idea to implementing changes and following up on player feedback.
 
 ## Goal
 
@@ -8,16 +8,15 @@ Improve and streamline AI-assisted Minecraft mod development by splitting the wo
 
 | Skill | Stage | Purpose |
 | --- | --- | --- |
-| `minecraft-mod-design` | Design | Turn an ambiguous idea into a bounded, reviewable Design. |
-| `minecraft-mod-plan` | Plan | Break an accepted Design into a concrete implementation plan. |
-| `minecraft-mod-develop` | Development | Implement the accepted Plan as working mod code across loaders, platforms, and versions. |
-| `minecraft-mod-review` | Review | Check code, design, and behavior for issues and consistency. |
-| `minecraft-mod-maintain` | Maintain | Support updates, ports, refactoring, and long-term upkeep. |
+| [minecraft-mod-design](skills/minecraft-mod-design/SKILL.md) | Design | Clarify mechanisms and boundaries, review feasibility, complete Gate, and hand off a RoadMap and Architecture Contract. |
+| [minecraft-mod-development](skills/minecraft-mod-development/SKILL.md) | Plan / Development / Review | Turn an accepted Design or a clear maintenance request into an implementation plan, working changes, build/startup checks, and a player testing handoff. |
+
+## Workflow
+
+```text
+Design -> Plan -> Development -> Review -> Player testing and feedback
+```
 
 ## Status
 
-This project is in early development. Only the Design stage has an initial implementation so far:
-
-- [minecraft-mod-design](skills/minecraft-mod-design/SKILL.md) - design workflow from Establish Context through Gate to Design Output.
-
-The Plan, Develop, Review, and Maintain Skills are planned and not yet available.
+This project is in early development. Both Skills have initial implementations. Plan, Development, and Review are combined in `minecraft-mod-development`.
